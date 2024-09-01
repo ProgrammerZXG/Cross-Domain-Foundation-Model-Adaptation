@@ -78,7 +78,7 @@ pip install -r requirements.txt
 ### 3. Download the dataset
 
 Before running the code, you need to download the dataset. 
-You can download the dataset in [Zenodo](https://zenodo.org/records/12798750) and put them in the `bash data/`.
+You can download the dataset in [Zenodo](https://zenodo.org/records/12798750) and put them in the `data/`.
 
 ### 4. Run the code
 
