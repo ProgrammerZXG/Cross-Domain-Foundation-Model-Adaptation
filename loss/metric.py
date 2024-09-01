@@ -16,23 +16,23 @@ class SegmentationMetric(object):
         # acc = (TP) / TP + FP
         # classAcc = np.diag(self.confusionMatrix) / self.confusionMatrix.sum(axis=1)
         classAcc = np.diag(self.confusionMatrix) / np.where(self.confusionMatrix.sum(axis=1) == 0, 1, self.confusionMatrix.sum(axis=1))
-        return classAcc # 返回的是一个列表值，如：[0.90, 0.80, 0.96]，表示类别1 2 3各类别的预测准确率
+        return classAcc 
  
     def meanPixelAccuracy(self):
         classAcc = self.classPixelAccuracy()
-        meanAcc = np.nanmean(classAcc) # np.nanmean 求平均值，nan表示遇到Nan类型，其值取为0
-        return meanAcc # 返回单个值，如：np.nanmean([0.90, 0.80, 0.96, nan, nan]) = (0.90 + 0.80 + 0.96） / 3 =  0.89
+        meanAcc = np.nanmean(classAcc)
+        return meanAcc
  
     def meanIntersectionOverUnion(self):
         # Intersection = TP Union = TP + FP + FN
         # IoU = TP / (TP + FP + FN)
-        intersection = np.diag(self.confusionMatrix) # 取对角元素的值，返回列表
-        union = np.sum(self.confusionMatrix, axis=1) + np.sum(self.confusionMatrix, axis=0) - np.diag(self.confusionMatrix) # axis = 1表示混淆矩阵行的值，返回列表； axis = 0表示取混淆矩阵列的值，返回列表 
-        IoU = intersection / union  # 返回列表，其值为各个类别的IoU
-        mIoU = np.nanmean(IoU) # 求各类别IoU的平均
+        intersection = np.diag(self.confusionMatrix) 
+        union = np.sum(self.confusionMatrix, axis=1) + np.sum(self.confusionMatrix, axis=0) - np.diag(self.confusionMatrix)
+        IoU = intersection / union  
+        mIoU = np.nanmean(IoU)
         return mIoU
  
-    def genConfusionMatrix(self, imgPredict, imgLabel): # 同FCN中score.py的fast_hist()函数
+    def genConfusionMatrix(self, imgPredict, imgLabel):
         # remove classes from unlabeled pixels in gt image and predict
         mask = (imgLabel >= 0) & (imgLabel < self.numClass)
         label = self.numClass * imgLabel[mask] + imgPredict[mask]

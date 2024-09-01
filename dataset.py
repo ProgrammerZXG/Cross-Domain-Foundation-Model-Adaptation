@@ -3,10 +3,6 @@ import numpy as np
 from torch.utils.data import Dataset
 from PIL import Image
 import torchvision.transforms as T
-import matplotlib.pyplot as plt
-import torch.nn.functional as F
-import glob
-import torch
 
 class BasicDataset(Dataset):
 
