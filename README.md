@@ -90,6 +90,48 @@ bash mla_facies.sh
 ```
 If you choose to use `bash run/mla_facies.sh`, please be aware of the dataset path.
 
+## :smile: Results
+
+
+### Quantitative Metrics for Downstream Tasks
+
+#### Mean Intersection over Union (mIoU)
+
+| Network       | Seismic Facies Classification | Seismic Geobody Identification | Crater Detection |
+|---------------|-------------------------------|---------------------------------|------------------|
+| Unet          | 0.5490                        | 0.8636                          | 0.5812           |
+| DINOv2-LINEAR | 0.6565                        | 0.8965                          | 0.6857           |
+| DINOv2-PUP    | **0.6885**                    | 0.8935                          | 0.6937           |
+| DINOv2-DPT    | 0.6709                        | 0.8912                          | 0.6917           |
+| DINOv2-MLA    | 0.6826                        | **0.8969**                      | **0.6949**       |
+
+| Network       | DAS Seismic Event Detection | Deep Fault Detection |
+|---------------|-----------------------------|----------------------|
+| Unet          | 0.7271                      | 0.6858               |
+| DINOv2-LINEAR | 0.8112                      | 0.6372               |
+| DINOv2-PUP    | 0.8487                      | 0.7088               |
+| DINOv2-DPT    | **0.8672**                  | 0.7334               |
+| DINOv2-MLA    | 0.8591                      | **0.7613**           |
+
+#### Mean Pixel Accuracy (mPA)
+
+| Network       | Seismic Facies Classification | Seismic Geobody Identification | Crater Detection |
+|---------------|-------------------------------|---------------------------------|------------------|
+| Unet          | 0.7693                        | 0.9112                          | 0.6265           |
+| DINOv2-LINEAR | 0.8732                        | 0.9374                          | 0.7481           |
+| DINOv2-PUP    | **0.9102**                    | 0.9357                          | 0.7529           |
+| DINOv2-DPT    | 0.8826                        | 0.9377                          | 0.7462           |
+| DINOv2-MLA    | 0.8975                        | **0.9383**                      | **0.7476**       |
+
+| Network       | DAS Seismic Event Detection | Deep Fault Detection |
+|---------------|-----------------------------|----------------------|
+| Unet          | 0.7865                      | 0.7439               |
+| DINOv2-LINEAR | 0.9033                      | 0.7519               |
+| DINOv2-PUP    | 0.9210                      | 0.7793               |
+| DINOv2-DPT    | 0.9119                      | 0.7985               |
+| DINOv2-MLA    | **0.9222**                  | **0.8195**           |
+
+
 ## :package: Dataset
 All data is avalable at [Zenodo](https://zenodo.org/records/12798750).
 
