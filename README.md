@@ -90,7 +90,7 @@ bash mla_facies.sh
 ```
 If you choose to use `bash run/mla_facies.sh`, please be aware of the dataset path.
 
-## :smile: Results
+## :stars: Results
 
 
 ### Quantitative Metrics for Downstream Tasks
