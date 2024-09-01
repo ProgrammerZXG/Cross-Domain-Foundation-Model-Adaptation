@@ -108,7 +108,7 @@ If you choose to use `bash run/mla_facies.sh`, please be aware of the dataset pa
 
 #### Mean Pixel Accuracy (mPA)
 
-| Network       | Seismic Facies Classification | Seismic Geobody Identification | Crater Detection | DAS Seismic <br>Event Detection | Deep Fault <br>Detection |
+| Network       | Seismic Facies <br>Classification | Seismic Geobody <br>Identification | Crater <br>Detection | DAS Seismic <br>Event Detection | Deep Fault <br>Detection |
 |---------------|:------------:|:------------:|:------------:|:------------:|:------------:|
 | Unet          | 0.7693                        | 0.9112                          | 0.6265           | 0.7865                      | 0.7439               |
 | DINOv2-LINEAR | 0.8732                        | 0.9374                          | 0.7481           | 0.9033                      | 0.7519               |
