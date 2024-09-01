@@ -23,6 +23,8 @@ Lawrence Berkeley National Laboratory, 1 Cyclotron Rd, CA 94707, USA
 ## :mega: News
 :flying_saucer: The dataset, model, code, and demo are coming soon! 
 
+:collision: [2024.09.01]: The code has been upload.
+
 :collision: [2024.08.23]: The paper has been submitted to Arxiv: https://arxiv.org/pdf/2408.12396
 
 :collision: [2024.07.23]: Upload the [dataset](https://github.com/ProgrammerZXG/Cross-Domain-Foundation-Model-Adaptation/blob/master/README.md#package-dataset). 
