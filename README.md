@@ -65,6 +65,7 @@ cd Cross-Domain-Foundation-Model-Adaptation
 
 '''bash
 pip install -r requirements.txt
+'''
 
 ### 3. Download the dataset
 
@@ -76,6 +77,7 @@ You can download the dataset in [Zenodo](https://zenodo.org/records/12798750) an
 '''bash
 cd run
 bash mla_facies.sh
+'''
 
 ## :package: Dataset
 All data is avalable at [Zenodo](https://zenodo.org/records/12798750).
