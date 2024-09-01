@@ -98,7 +98,7 @@ If you choose to use `bash run/mla_facies.sh`, please be aware of the dataset pa
 #### Mean Intersection over Union (mIoU)
 
 | Network       | Seismic Facies <br>Classification | Seismic Geobody <br>Identification | Crater <br>Detection | DAS Seismic <br>Event Detection | Deep Fault <br>Detection |
-|---------------|----------------|------------------|------------------|------------------|------------------|
+|---------------|:------------:|:------------:|:------------:|:------------:|:------------:|
 | Unet          | 0.5490                        | 0.8636                          | 0.5812           | 0.7271                      | 0.6858               |
 | DINOv2-LINEAR | 0.6565                        | 0.8965                          | 0.6857           | 0.8112                      | 0.6372               |
 | DINOv2-PUP    | **0.6885**                    | 0.8935                          | 0.6937           | 0.8487                      | 0.7088               |
