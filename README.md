@@ -54,33 +54,41 @@ field (4th column).
 ##  🚀 Quick Start
 
 ### 1. Clone the repository
+Our code provides demos corresponding to the data mentioned in the paper, 
+including seismic facies, geological bodies, DAS, faults, and craters. 
+You can run them by following the steps below:
 
 First, clone the repository to your local machine:
 
-'''bash
+```bash
 
 git clone git@github.com:ProgrammerZXG/Cross-Domain-Foundation-Model-Adaptation.git
 cd Cross-Domain-Foundation-Model-Adaptation
 
+```
+
 ### 2. Install dependencies
 
-'''bash
+```bash
 
 pip install -r requirements.txt
 
+```
 
 ### 3. Download the dataset
 
 Before running the code, you need to download the dataset. 
-You can download the dataset in [Zenodo](https://zenodo.org/records/12798750) and put them in the "data/".
+You can download the dataset in [Zenodo](https://zenodo.org/records/12798750) and put them in the `bash data/`.
 
 ### 4. Run the code
 
-'''bash
+```bash
 
 cd run
 bash mla_facies.sh
 
+```
+If you choose to use `bash run/mla_facies.sh`, please be aware of the dataset path.
 
 ## :package: Dataset
 All data is avalable at [Zenodo](https://zenodo.org/records/12798750).
