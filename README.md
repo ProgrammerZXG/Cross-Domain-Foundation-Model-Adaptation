@@ -105,6 +105,16 @@ All data is avalable at [Zenodo](https://zenodo.org/records/12798750).
 
 ## :bookmark: Citation
 
+@misc{guo2024crossdomainfoundationmodeladaptation,
+      title={Cross-Domain Foundation Model Adaptation: Pioneering Computer Vision Models for Geophysical Data Analysis}, 
+      author={Zhixiang Guo and Xinming Wu and Luming Liang and Hanlin Sheng and Nuo Chen and Zhengfa Bi},
+      year={2024},
+      eprint={2408.12396},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2408.12396}, 
+}
+
 ## :memo: Acknowledgment
 This study is strongly supported by the Supercomputing 
 Center of the University of Science and Technology of China, 
