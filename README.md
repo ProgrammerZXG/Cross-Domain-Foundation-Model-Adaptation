@@ -53,6 +53,30 @@ field (4th column).
 
 ##  🚀 Quick Start
 
+### 1. Clone the repository
+
+First, clone the repository to your local machine:
+
+'''bash
+git clone git@github.com:ProgrammerZXG/Cross-Domain-Foundation-Model-Adaptation.git
+cd Cross-Domain-Foundation-Model-Adaptation
+
+### 2. Install dependencies
+
+'''bash
+pip install -r requirements.txt
+
+### 3. Download the dataset
+
+Before running the code, you need to download the dataset. 
+You can download the dataset in [Zenodo](https://zenodo.org/records/12798750) and put them in the "data/".
+
+### 4. Run the code
+
+'''bash
+cd run
+bash mla_facies.sh
+
 ## :package: Dataset
 All data is avalable at [Zenodo](https://zenodo.org/records/12798750).
 
