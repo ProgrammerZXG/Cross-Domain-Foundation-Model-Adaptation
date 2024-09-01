@@ -108,22 +108,13 @@ If you choose to use `bash run/mla_facies.sh`, please be aware of the dataset pa
 
 #### Mean Pixel Accuracy (mPA)
 
-| Network       | Seismic Facies Classification | Seismic Geobody Identification | Crater Detection |
-|---------------|-------------------------------|---------------------------------|------------------|
-| Unet          | 0.7693                        | 0.9112                          | 0.6265           |
-| DINOv2-LINEAR | 0.8732                        | 0.9374                          | 0.7481           |
-| DINOv2-PUP    | **0.9102**                    | 0.9357                          | 0.7529           |
-| DINOv2-DPT    | 0.8826                        | 0.9377                          | 0.7462           |
-| DINOv2-MLA    | 0.8975                        | **0.9383**                      | **0.7476**       |
-
-| Network       | DAS Seismic Event Detection | Deep Fault Detection |
-|---------------|-----------------------------|----------------------|
-| Unet          | 0.7865                      | 0.7439               |
-| DINOv2-LINEAR | 0.9033                      | 0.7519               |
-| DINOv2-PUP    | 0.9210                      | 0.7793               |
-| DINOv2-DPT    | 0.9119                      | 0.7985               |
-| DINOv2-MLA    | **0.9222**                  | **0.8195**           |
-
+| Network       | Seismic Facies Classification | Seismic Geobody Identification | Crater Detection | DAS Seismic <br>Event Detection | Deep Fault <br>Detection |
+|---------------|:------------:|:------------:|:------------:|:------------:|:------------:|
+| Unet          | 0.7693                        | 0.9112                          | 0.6265           | 0.7865                      | 0.7439               |
+| DINOv2-LINEAR | 0.8732                        | 0.9374                          | 0.7481           | 0.9033                      | 0.7519               |
+| DINOv2-PUP    | **0.9102**                    | 0.9357                          | 0.7529           | 0.9210                      | 0.7793               |
+| DINOv2-DPT    | 0.8826                        | 0.9377                          | 0.7462           | 0.9119                      | 0.7985               |
+| DINOv2-MLA    | 0.8975                        | **0.9383**                      | **0.7476**       |**0.9222**                  | **0.8195**           |
 
 ## :package: Dataset
 All data is avalable at [Zenodo](https://zenodo.org/records/12798750).
