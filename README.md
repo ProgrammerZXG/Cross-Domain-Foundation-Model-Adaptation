@@ -23,7 +23,7 @@ Lawrence Berkeley National Laboratory, 1 Cyclotron Rd, CA 94707, USA
 ## :mega: News
 :flying_saucer: The dataset, model, code, and demo are coming soon! 
 
-:collision: [2025.02.23]: The paper has been accepted for publication in **JGR: Machine Learning and Computation** [![DOI](10.1029/2025JH000601)](10.1029/2025JH000601)
+:collision: [2025.02.23]: The paper has been accepted for publication in **JGR: Machine Learning and Computation**
 
 :collision: [2024.09.01]: The code has been uploaded.
 
