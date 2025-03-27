@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3fa99bf8-d742-4d93-be6c-9549cd18ba57)#  🌏 Cross-Domain Foundation Model Adaptation: Pioneering Computer Vision Models for Geophysical Data Analysis
+🌏 Cross-Domain Foundation Model Adaptation: Pioneering Computer Vision Models for Geophysical Data Analysis
 
 
 🏢 [Computational Interpretation Group (CIG)](https://cig.ustc.edu.cn/main.htm) 
