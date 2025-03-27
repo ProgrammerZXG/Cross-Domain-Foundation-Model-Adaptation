@@ -1,4 +1,4 @@
-#  🌏 Cross-Domain Foundation Model Adaptation: Pioneering Computer Vision Models for Geophysical Data Analysis
+![image](https://github.com/user-attachments/assets/3fa99bf8-d742-4d93-be6c-9549cd18ba57)#  🌏 Cross-Domain Foundation Model Adaptation: Pioneering Computer Vision Models for Geophysical Data Analysis
 
 
 🏢 [Computational Interpretation Group (CIG)](https://cig.ustc.edu.cn/main.htm) 
@@ -23,7 +23,7 @@ Lawrence Berkeley National Laboratory, 1 Cyclotron Rd, CA 94707, USA
 ## :mega: News
 :flying_saucer: The dataset, model, code, and demo are coming soon! 
 
-:collision: [2025.02.23]: The paper has been accepted for publication in **JGR: Machine Learning and Computation**
+:collision: [2025.02.23]: The paper has been accepted for publication in [[JGR: Machine Learning and Computation](https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JH000601)]
 
 :collision: [2024.09.01]: The code has been uploaded.
 
